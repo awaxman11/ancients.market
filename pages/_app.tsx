@@ -21,20 +21,15 @@ function Robes({ Component, pageProps }) {
           rel="stylesheet"
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:creator" content="@worm_emoji" />
-        <meta property="og:url" content="https://robes.market" />
+        <meta name="twitter:creator" content="@ajwaxman" />
+        <meta property="og:url" content="https://ancients.market" />
         <meta property="og:title" content="robes.market" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta
           property="og:description"
-          content="See the floor price of Divine Robes from the Loot project."
+          content="See the floor price of Ancient Helms from the Loot project."
         />
-        <meta property="og:image" content="https://robes.market/og.png" />
-        <script
-          data-goatcounter="https://divinerobes.goatcounter.com/count"
-          async
-          src="//gc.zgo.at/count.js"
-        ></script>
+        <meta property="og:image" content="https://ancients.market/ancients.png" />
       </Head>
     </>
   )
