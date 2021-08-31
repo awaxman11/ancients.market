@@ -34,7 +34,29 @@ const Robe = ({ robe }: { robe: RobeInfo }) => {
 const IndexPage = ({ robes, lastUpdate }: Props) => {
   return (
     <div className="py-3 md:pb-0 font-mono flex flex-col justify-center items-center gap-4 pt-10 md:w-screen">
-      <h1 className="text-lg md:text-3xl">The Ancients</h1>
+      <h1 className="text-lg md:text-4xl">The Order of the Ancient Adventurers</h1>
+      <div className="text-center max-w-screen-md md:leading-loose">
+          <p className="md:text-xl">
+    
+          0.8% of current Loot items are Ancient, carried through time and space by Ancient Adventurers.<br></br><br></br>
+
+          Since the beginning, a group of Ancient Adventurers have roamed the land, driven to explore, with a Fury for adventure.<br></br><br></br>
+
+          Flanked by a hoard of Giant Titans and Ancient Protectors, the Adventurers travel, bound together by unspoken vows across generations.<br></br><br></br>
+
+          In the distance, a cry rings out.<br></br><br></br>
+
+          The skulk of Foxes freeze and cock their ears towards the misty horizon. Their fur stands on end.<br></br><br></br>
+
+          The Brilliant elders glance to their council of Skilled advisors.<br></br><br></br>
+
+          The Twins raise their eyes to the pale orange sky.<br></br><br></br>
+
+            The time has come.
+          </p>
+        </div>
+        <br></br>
+      <h1 className="text-lg md:text-4xl">Join the Ancient Adventurers</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
         <p className="md:text-xl">
           There are {robes.length} Ancient Helm bags for sale, with a floor
