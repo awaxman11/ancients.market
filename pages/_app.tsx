@@ -23,7 +23,7 @@ function Robes({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@ajwaxman" />
         <meta property="og:url" content="https://ancients.market" />
-        <meta property="og:title" content="robes.market" />
+        <meta property="og:title" content="ancients.market" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <meta
           property="og:description"
