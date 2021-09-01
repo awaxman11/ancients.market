@@ -7,8 +7,8 @@ function Robes({ Component, pageProps }) {
       <style jsx global>
         {`
           body {
-            background: #000000e0;
-            color: white;
+            background: #fff2d9;
+            color: #4d382f;
             overflow-x: hidden;
           }
         `}
@@ -17,7 +17,7 @@ function Robes({ Component, pageProps }) {
         <title>Ancient Adventurers</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family='Inconsolata':wght@400;600;700&display=swap"
           rel="stylesheet"
         />
         <meta name="twitter:card" content="summary_large_image" />
