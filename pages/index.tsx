@@ -37,11 +37,11 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
       <img className="w-20 md:w-28" src="helmet.png" alt="Ancient Helmet"></img>
       <h1 className="text-lg md:text-3xl font-bold">The Ancient Adventurers</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
-        <p className="md:text-md">
+        <p className="md:text-lg">
           There are {robes.length} Ancient Helm bags for sale, with a floor
           price of {robes[0].price} ETH.
         </p>
-        <p className="md:text-md pt-2">
+        <p className="md:text-lg pt-2">
           Site by {' '}
           <a
             target="_blank"
