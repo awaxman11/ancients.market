@@ -35,7 +35,7 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
   return (
     <div className="py-3 md:pb-0 font-mono flex flex-col justify-center items-center gap-4 pt-10 md:w-screen">
       <img className="w-20 md:w-28" src="helmet.png" alt="Ancient Helmet"></img>
-      <h1 className="text-lg md:text-3xl font-bold">The Ancient Adventurers</h1>
+      <h1 className="text-lg md:text-3xl font-bold">The Ancients</h1>
       <div className="text-center max-w-screen-md md:leading-loose">
         <p className="md:text-lg">
           There are {robes.length} Ancient Helm bags for sale, with a floor
@@ -62,7 +62,7 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
           <a
             target="_blank"
             className="underline"
-            href="https://discord.gg/ZaDzFdbc"
+            href="https://ancients.vercel.app/"
           >
             Discord
           </a>
