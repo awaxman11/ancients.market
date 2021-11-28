@@ -62,7 +62,7 @@ const IndexPage = ({ robes, lastUpdate }: Props) => {
           <a
             target="_blank"
             className="underline"
-            href="https://ancients.vercel.app/"
+            href="https://ancients.app/"
           >
             Discord
           </a>
